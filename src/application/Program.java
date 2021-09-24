@@ -22,10 +22,12 @@ public class Program {
 				System.out.println();
 				System.out.print("P - Pawn (Peão) | R - Rook (Torre) | N - Knight (Cavalo)");
 				System.out.println();
-				System.out.println("B - Bishop (Bispo) | Q - Queen (Rainha) | K - King (Rei)");
+				System.out.print("B - Bishop (Bispo) | Q - Queen (Rainha) | K - King (Rei)");
+				System.out.println();
+				System.out.println("Blue - Azul | Red - Vermelho");
 				System.out.println();
 				
-				UI.printBoard(chessMatch.getPieces());			
+				UI.printMatch(chessMatch);			
 				System.out.println();
 				System.out.print("Escolha a peça que você quer mover: ");
 				ChessPosition source = UI.readChessPosition(sc);
