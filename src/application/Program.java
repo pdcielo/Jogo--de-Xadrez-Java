@@ -18,6 +18,13 @@ public class Program {
 		while (true) {
 			try {
 				UI.clearScreen();
+				System.out.print("Legenda das peças:");
+				System.out.println();
+				System.out.print("P - Pawn (Peão) | R - Rook (Torre) | N - Knight (Cavalo)");
+				System.out.println();
+				System.out.println("B - Bishop (Bispo) | Q - Queen (Rainha) | K - King (Rei)");
+				System.out.println();
+				
 				UI.printBoard(chessMatch.getPieces());			
 				System.out.println();
 				System.out.print("Escolha a peça que você quer mover: ");
